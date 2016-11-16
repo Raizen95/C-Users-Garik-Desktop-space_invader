@@ -1,0 +1,115 @@
+body{
+	margin:0px;
+	overflow:hidden;
+  /*cursor: none;*/
+  }
+  .fone{
+  	position: absolute;
+  	margin-left: 30%;
+  }
+  p,h3{
+    display:inline;
+  	color:white;
+  }
+  h1{
+  	background-color: blue;
+z-index:200;
+position:absolute;
+height:150px;
+width:900px;
+font-size: 50px;
+color:#fff;
+  	margin-left: 190px;
+  	margin-top:200px;
+border-radius: 90px;
+  }
+  #shut_boss{
+    position: absolute;
+    z-index:666;
+  }
+  #lives{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 500px;
+    z-index:666;
+  }
+  .credits{
+  	margin-left: 35%;
+  	font-size: 25px;
+  	font-weight: bold;
+    color:white;
+    margin-top: -350px;
+  }
+  #start{
+  	margin: 0px;
+  	width: 1300px;
+  	height:900px;
+  	background-color: black;
+z-index:200;
+position:absolute;
+  }
+ #start_button{
+margin-top: 400px;
+margin-left: 35%;
+background-color: green;
+color:white;
+height:160px;
+width:400px;
+border-radius: 90px;
+font-size: 5em;
+  }
+ #restart_button{
+margin-top: 400px;
+margin-left: 35%;
+background-color: red;
+height:160px;
+width:400px;
+border-radius: 90px;
+font-size: 4em;
+  }
+ #restart_cong{
+margin-top: 400px;
+margin-left: 400px;
+background-color: green;
+height:120px;
+width:350px;
+border-radius: 90px;
+font-size: 4em;
+  }
+#ship_block{
+	margin-left:47%;
+	padding-left: 0px;
+	margin-top:30%;
+}
+#ship{
+	height:105px;
+}
+.bg{
+	position:absolute;
+	height:850px;
+	width:1200px;
+	background: url(../images/bg.jpg);
+}
+#bullet{
+	position:absolute;
+	display:inline;
+	height:15px;
+	margin-left: 45px;
+
+}
+#alien1,#alien2,#alien3,#alien4,#alien5{
+	position:absolute;
+}
+#boss{
+	position:absolute;
+	margin-top: -200px;
+	margin-left: -400px;
+}
+.count{
+	position:fixed;
+	margin-left: 20px;
+	margin-top: 5px;
+	color:white;
+	z-index: 100;
+	font-size: 30px;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Space Invader</title>
+	<link rel="stylesheet" href="css/style.css">
+	<meta charset="utf-8">
+	<script src="http://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+</head>
+<body onselectstart="return false"  ondblclick="clearSelection()">
+<span class="count"><b>KILLS: <span id="count">0</span><b>
+<br>
+<b>LIFES: <span id="count_lifes">3</span></b>
+</span>
+<div id="start">
+<img src="images/fone.png" class="fone">
+<button id="start_button">START</button>
+</div>
+<div class="bg">
+<div id="lives"></div>
+<img src="images/boss.png" id="boss">
+<img src="images/alien1.png" id="alien1">
+<img src="images/alien2.png" id="alien2">
+<img src="images/alien3.png" id="alien3">
+<img src="images/alien4.png" id="alien4">
+<img src="images/alien5.png" id="alien5">
+<div id="ship_block">
+<img src="images/spaceship.png" id="ship">
+</div>
+</div>
+<script src="js/script.js"></script>
+</body>
+</html>
